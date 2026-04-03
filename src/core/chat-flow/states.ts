@@ -72,7 +72,7 @@ export const flowStates: Record<FlowName, FlowStateHandler> = {
       rag_icon_visible: false,
       ...(getCurrentStatus().text.endsWith("Listening...") || !getCurrentStatus().text
         ? {
-          text: `Long Press the button to say something${ctx.enableCamera ? ",\ndouble click to launch camera" : ""
+          text: `Hi I am Nirmata. \nLong Press the button to say something${ctx.enableCamera ? ",\ndouble click to launch camera" : ""
             }.`,
         }
         : {}),
